@@ -1,0 +1,85 @@
+What is RDBMS
+-> 	RDBMS stands for Relational Database Management System. It is a type of database 	management system that organizes data into tables, which consist of rows and 	columns. The data in RDBMS is stored in a structured format, and the relationships 	between different pieces of data are defined by using keys.
+
+ What is SQL
+-> 	SQL, or Structured Query Language, is a domain-specific programming language 	designed for managing and manipulating relational databases. It provides a 	standardized way to interact with databases, allowing users to perform tasks such 	as querying data, updating records, inserting new data, and managing database 	structures.
+
+ Write SQL Commands
+->	there are 4 typers of SQL Commends
+  	DDL – Data Definition Language
+  	DML – Data Manipulation Language
+  	DCL – Data Control Language
+ 	 DQL – Data Query Language
+
+ What is join?
+-> a join is an operation that combines rows from two or more tables based on a related        column between them. The purpose of a join is to retrieve data from multiple tables in a   single result set, allowing you to analyze and work with related information.
+
+ Write type of joins. 
+-> there are 4 types of join
+ 1. INNER JOIN:- Returns only the rows where there is a match in both tables based on the specified condition. Rows that do not meet the condition are excluded from the result set.
+
+ 2. LEFT (OUTER) JOIN:- Returns all rows from the left table and the matched rows from the right table. If there is no match, NULL values are returned for columns from the right table.
+
+ 3. RIGHT (OUTER) JOIN:- Returns all rows from the right table and the matched rows from the left table. If there is no match, NULL values are returned for columns from the left table.
+
+ 4. FULL (OUTER) JOIN:- Returns all rows when there is a match in either the left or right table. If there is no match, NULL values are returned for columns from the table without a match.
+
+ How Many constraint and describes it self
+ ->  Primary Key Constraint:-Ensures that each row in a table is uniquely identified by a specific column or set 	of columns. This column (or columns) cannot have NULL values and must contain unique values.
+
+-> Unique Constraint:- Ensures that all values in a particular column or a set of columns are unique, but unlike a primary key, a unique constraint allows NULL values.
+
+-> NOT NULL Constraint:- Ensures that a column cannot have NULL values.
+
+ Difference between RDBMS vs DBMS
+-> DBMS (Database Management System):-
+	Stores data in a less structured way, often using a hierarchical or navigational 	approach.
+	Relationships between data may not be well-defined.
+	May not enforce strict rules for data integrity.
+	Examples include older systems like IMS and some versions of Microsoft Access.
+
+-> RDBMS (Relational Database Management System):
+	Organizes data in tables with rows and columns.
+	Establishes clear relationships between tables using keys (primary and foreign 	keys).
+	Enforces data integrity through constraints like primary keys, foreign keys, and 	checks.
+	Uses a standardized query language (SQL) for interacting with the database.
+	Examples include MySQL, PostgreSQL, Oracle Database, and Microsoft SQL Server.
+
+ What is API Testing
+-> 	API testing is the process of evaluating the functionality, performance, and 	security of Application Programming Interfaces (APIs). It involves checking if the 	API works as expected, handles various inputs correctly, performs well under 	different conditions, and is secure. This testing ensures that software systems can 	communicate effectively, and it contributes to the reliability and quality of the 	overall application.
+
+ Types of API Testing
+-> there are 4 types of API testing 
+	1.Open APIs: These types of APIs are publicly available to use like OAuth APIs
+	from Google. It has also not given any restriction to use them. So, they are
+	also known as Public APIs.
+	2. Partner APIs: Specific rights or licenses to access this type of API because
+	they are not available to the public.
+	3. Internal APIs: Internal or private. These APIs are developed by companies
+	to use in their internal systems. It helps you to enhance the productivity of
+	your teams.
+	4. Composite: its is a combination of all 3 API's
+
+   
+ What is Responsive Testing?
+ -> 	esponsive testing ensures that a website or web application functions well and 	looks good on various devices and screen sizes, including desktops, laptops, 	tablets, and mobile phones. It involves checking layout, design, navigation, and 	content adaptation to provide a consistent and user-friendly experience across 	different devices.
+ Which types of tools are available for Responsive Testing
+->	there are plenty of types of tools which helps to do API TESTING
+	- LT Browser
+	- Lembda Testing
+	- Google Resizer
+	- Pixel Tuner
+
+ What is the full form of .ipa, .apk
+ -> 	.ipa->iOS App Store Package
+	->Android Package
+
+ How to create step for to open the developer option mode ON?
+-> 	1> Open Settings:
+	2> Navigate to "About Phone" or "About Device":
+	3> Find "Build Number" or "Software Information":
+	4> Tap "Build Number" Multiple Times:
+	5> Tap "Build Number" Multiple Times:
+	6> Developer Options Activated:
+	7> Developer Options Activated:
+	8> Open Developer Options:
